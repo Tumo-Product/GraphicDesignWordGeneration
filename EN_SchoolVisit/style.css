@@ -1,0 +1,61 @@
+#slotmachine{
+    width:500px;
+    background-color: wheat;
+    height: 0px;
+    margin:150px auto;
+}
+
+.slot{
+    width: 49.5%;
+    height: 99px;
+    background-color: #3498DB;
+    display: inline-block;
+    margin: 0px;
+    border-radius: 8px;
+    line-height: 99px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+
+.slot a{
+    color:white;
+}
+
+.slot a:hover{
+    color:black;
+}
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    padding: 1px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 40px;
+    margin: 4px auto;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    color:white;
+    border-radius: 8px;
+}
+
+.button1 {
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: white;
+    color: black;
+}
+
+
+span{
+    height: 20px;
+    line-height: 20px;
+    display: inline-block;
+}
